@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <div>
+        <div style={{ margin: "25px" }}>
           <Header />
           <Route path="/" exact component={StreamList} />
           <Route path="/streams/new" exact component={StreamCreate} />
