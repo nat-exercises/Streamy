@@ -28,7 +28,6 @@ class StreamForm extends Component {
   };
 
   render() {
-    console.log(this.formProps);
     return (
       <form
         onSubmit={this.props.handleSubmit(this.onSubmit)}
